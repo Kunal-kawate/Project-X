@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255) url("Static/Rhombus.gif") no-repeat center ;
+    z-index: 10;
+}
+
+main {
+    background-color: deepskyblue;
+}
+
+.boxA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.connect-logo {
+    height: 90vw;
+    margin: 1vw;
+}
+
+.p1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25vw;
+}
+
+.p2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20vw;
+}
+
+.p3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 7vw;
+}
+
+/* .left{
+
+} */
+.right {
+    text-align: center;
+}
+
+.m-hr {
+    margin: 1vw 1vw 1vw 1vw;
+    border: 1px solid black;
+}
+
+.boxB {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.c-line {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+
+/* ------------------Cards Css--------------- */
+
+.card {
+    margin: 3vw;
+}
+
+/* ------Responsive Css------- */
+
+@media only screen and (min-width:810px) {
+    .connect-logo {
+        height: 40vw;
+        margin: 1vw;
+    }
+
+    .p1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 10vw;
+    }
+    
+    .p2 {
+        font-family: 'Oswald', sans-serif;
+        font-size:10vw;
+    }
+    
+    .p3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 3vw;
+    }
+}
