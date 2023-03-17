@@ -10,6 +10,9 @@
     background: rgb(255, 255, 255) url("Static/Rhombus.gif") no-repeat center ;
     z-index: 10;
 }
+html{
+    background-color: deepskyblue;
+}
 
 main {
     background-color: deepskyblue;
